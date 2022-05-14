@@ -133,20 +133,22 @@ const App = () => {
        
       </div> */}
 
-<nav class="navbar navbar-expand-lg navbar-primary bg-dark">
-  <div class="container-fluid">
-      <img className='flex' src={download} style={{width: "8vw",height:"10vh"}}alt="not found"/>
-    
-    
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <input className="form-control me-2" style={{width: "78vw",margin: "0px 30px 0px 30px "   }} onChange={onChangehandler}  value={search} type="search" placeholder="Search" aria-label="Search"/>
-      
-     
-    </div>
-    
-      <img className='flex' src={image} style={{width: "8vw",height:"10vh"}}alt="not found"/>
+<nav className='navbar'>
+
+  <div className='logo'>
+      <img  src={download} style={{width: "8vw",height:"10vh"}}alt="not found"/>
   </div>
+  <div className='search'>
+        <input  onChange={onChangehandler}  value={search} type="search" placeholder="Search" aria-label="Search"/>
+  </div>
+
+  <div className='proimg'>
+      <img  src={image} style={{width: "8vw",height:"10vh"}}alt="not found"/>  
+  </div>
+
 </nav>
+  
+  
 
 
 

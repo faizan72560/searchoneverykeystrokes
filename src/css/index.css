@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: teal;
+    color: #fff;
+    height: 5vh;
+   }
+
+   .container{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   
